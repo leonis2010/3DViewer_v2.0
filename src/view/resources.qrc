@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/files">
+        <file>gif_lib/gif_image/icon_open_file.png</file>
+        <file>gif_lib/gif_image/icon_screenshot.png</file>
+        <file>gif_lib/gif_image/icon_record.png</file>
+        <file>gif_lib/gif_image/icon_settings.png</file>
+    </qresource>
+</RCC>

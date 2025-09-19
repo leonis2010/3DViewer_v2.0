@@ -1,0 +1,14 @@
+{
+  "background_color_": "black",
+  "duration_sec_": 5,
+  "edge_color_": "gold",
+  "edge_display_method_": "solid",
+  "edge_width_": 2.0,
+  "fps_": 24,
+  "projection_type_": "ortographic",
+  "target_height_": 480,
+  "target_width_": 640,
+  "vertex_color_": "white",
+  "vertex_display_method_": "none",
+  "vertex_size_": 10.0
+}

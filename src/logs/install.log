@@ -1,0 +1,57 @@
+-- The CXX compiler identification is AppleClang 16.0.0.16000026
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE  
+-- Found OpenGL: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/OpenGL.framework   
+-- Found WrapOpenGL: TRUE  
+-- Configured 3D Viewer Project
+-- GUI Target: 3DViewer
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/sueannel/Projects/CPP4_3DViewer_v2.0.ID_353537-Team_TL_sueannel.bf660055_e064_4cff-2/build
+[  5%] Automatic MOC and UIC for target viewer_model
+[  5%] Built target viewer_model_autogen
+[ 10%] Building CXX object CMakeFiles/viewer_model.dir/viewer_model_autogen/mocs_compilation.cpp.o
+[ 15%] Building CXX object CMakeFiles/viewer_model.dir/model/errors.cpp.o
+[ 20%] Building CXX object CMakeFiles/viewer_model.dir/model/matrix.cpp.o
+[ 25%] Building CXX object CMakeFiles/viewer_model.dir/model/parser.cpp.o
+[ 30%] Linking CXX static library libviewer_model.a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libviewer_model.a(mocs_compilation.cpp.o) has no symbols
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libviewer_model.a(mocs_compilation.cpp.o) has no symbols
+[ 30%] Built target viewer_model
+[ 35%] Automatic MOC and UIC for target 3d_viewer_gui
+[ 35%] Built target 3d_viewer_gui_autogen
+[ 40%] Automatic RCC for view/resources.qrc
+[ 45%] Building CXX object CMakeFiles/3d_viewer_gui.dir/3d_viewer_gui_autogen/mocs_compilation.cpp.o
+[ 50%] Building CXX object CMakeFiles/3d_viewer_gui.dir/view/scene.cpp.o
+[ 55%] Building CXX object CMakeFiles/3d_viewer_gui.dir/view/settings_facade.cpp.o
+[ 60%] Building CXX object CMakeFiles/3d_viewer_gui.dir/view/settings_gui.cpp.o
+[ 65%] Building CXX object CMakeFiles/3d_viewer_gui.dir/view/viewer_widget.cpp.o
+/view/viewer_widget.cpp:228:32: warning: implicit capture of 'this' with a capture default of '=' is deprecated [-Wdeprecated-this-capture]
+  228 |       QMessageBox::information(this, tr("Done"),
+      |                                ^
+/view/viewer_widget.cpp:223:37: note: add an explicit capture of 'this' to capture '*this' by reference
+  223 |   connect(timer, &QTimer::timeout, [=]() mutable {
+      |                                     ^
+      |                                      , this
+1 warning generated.
+[ 70%] Building CXX object CMakeFiles/3d_viewer_gui.dir/controller/controller.cpp.o
+[ 75%] Building CXX object CMakeFiles/3d_viewer_gui.dir/3d_viewer_gui_autogen/OTUN7GXZT4/qrc_resources.cpp.o
+[ 80%] Linking CXX shared library lib3d_viewer_gui.dylib
+[ 80%] Built target 3d_viewer_gui
+[ 85%] Automatic MOC and UIC for target 3DViewer
+[ 85%] Built target 3DViewer_autogen
+[ 90%] Building CXX object CMakeFiles/3DViewer.dir/3DViewer_autogen/mocs_compilation.cpp.o
+[ 95%] Building CXX object CMakeFiles/3DViewer.dir/index.cpp.o
+[100%] Linking CXX executable 3DViewer
+[100%] Built target 3DViewer
